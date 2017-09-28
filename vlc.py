@@ -1,3 +1,6 @@
+import os
+import subprocess
+
 def play(mov, *subs, **keyword_parameters):
         if ('subs' in keyword_parameters):
 #            print 'subs found, it is', keyword_parameters['subs']
